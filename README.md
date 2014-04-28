@@ -12,6 +12,7 @@ The data should be cleaned up in Excel and formatted into the following columns:
 
 Image ID | Patient ID | Stage | Probe | Spot ID | Region ID | Count | Area (pixels) | Threshold
 --- | --- | --- | --- | --- | --- | --- | --- | ---
+Name.tif | NC1 | Normal | PGC1beta | A | 1 | 134 | 1391934 | 245
 
 To do an analysis, you will need both the No Probe and Probe of interest files.
 
