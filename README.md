@@ -17,14 +17,15 @@ Name.tif | NC1 | Normal | PGC1beta | A | 1 | 134 | 1391934 | 245
 To do an analysis, you will need both the No Probe and Probe of interest files.
 
 Currently, the scripts will handle the following stages:
-Normal
-Tubular Adenoma
-Stage 1 Primary
-Stage 2 Primary
-Stage 3 Primary
-Stage 4 Primary
-Stage 3 Metastatic
-Stage 4 Metastatic
+
+*Normal
+*Tubular Adenoma
+*Stage 1 Primary
+*Stage 2 Primary
+*Stage 3 Primary
+*Stage 4 Primary
+*Stage 3 Metastatic
+*Stage 4 Metastatic
 
 ## Analysis
 
