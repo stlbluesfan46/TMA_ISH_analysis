@@ -10,9 +10,11 @@ Currently, the TMAs are set up with each patient having up to three replicate sp
 
 The data should be cleaned up in Excel and formatted into the following columns:
 
-Image ID | Patient ID | Stage | Probe | Spot ID | Region ID | Count | Area (pixels) | Threshold
+Image ID | Sample ID | Stage | Probe | Spot ID | Region ID | Count | Area | Threshold
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 Name.tif | NC1 | Normal | PGC1beta | A | 1 | 134 | 1391934 | 245
+
+Save the files in .csv format.
 
 To do an analysis, you will need both the No Probe and Probe of interest files.
 
@@ -20,12 +22,12 @@ Currently, the scripts will handle the following stages:
 
 *Normal
 *Tubular Adenoma
-*Stage 1 Primary
-*Stage 2 Primary
-*Stage 3 Primary
-*Stage 4 Primary
-*Stage 3 Metastatic
-*Stage 4 Metastatic
+*Stage 1
+*Stage 2
+*Stage 3
+*Stage 4
+*Stage 3 Metastasis
+*Stage 4 Metastasis
 
 ## Analysis
 
@@ -33,6 +35,13 @@ Analysis.R will provide the intial analysis on the data. It will compute the ave
 
 It will then display graphs with the distribution of all stages and stages independently.
 
-The script will then combine the data, perform tests for normality, and conduct an ANOVA.
+The script will then combine the data, perform tests for normality, and conduct a One-Way ANOVA.
 
 A graph will be produced comparing all stages.
+
+## Running the analysis
+
+To run the analysis, you must set a working directory in R that directs to your files.
+The files should be named noprobe.csv, probe.csv (ex. pgc1beta.csv)
+For the time being, you will have to set the probe file manually in the script. Hopefully I can add prompts in the future.
+Once that is set, you can just run the entire script.
