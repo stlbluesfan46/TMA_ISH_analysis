@@ -157,13 +157,13 @@ hr {
 <table><thead>
 <tr>
 <th>Image ID</th>
-<th>Patient ID</th>
+<th>Sample ID</th>
 <th>Stage</th>
 <th>Probe</th>
 <th>Spot ID</th>
 <th>Region ID</th>
 <th>Count</th>
-<th>Area (pixels)</th>
+<th>Area</th>
 <th>Threshold</th>
 </tr>
 </thead><tbody>
@@ -180,18 +180,23 @@ hr {
 </tr>
 </tbody></table>
 
+<p>Save the files in .csv format.
+Make sure that each Sample is named differently, or you will get inacurate results</p>
+
 <p>To do an analysis, you will need both the No Probe and Probe of interest files.</p>
 
 <p>Currently, the scripts will handle the following stages:</p>
 
-<p>*Normal
-*Tubular Adenoma
-*Stage 1 Primary
-*Stage 2 Primary
-*Stage 3 Primary
-*Stage 4 Primary
-*Stage 3 Metastatic
-*Stage 4 Metastatic</p>
+<ul>
+<li>Normal</li>
+<li>Tubular Adenoma</li>
+<li>Stage 1</li>
+<li>Stage 2</li>
+<li>Stage 3</li>
+<li>Stage 4</li>
+<li>Stage 3 Metastasis</li>
+<li>Stage 4 Metastasis</li>
+</ul>
 
 <h2>Analysis</h2>
 
@@ -199,9 +204,16 @@ hr {
 
 <p>It will then display graphs with the distribution of all stages and stages independently.</p>
 
-<p>The script will then combine the data, perform tests for normality, and conduct an ANOVA.</p>
+<p>The script will then combine the data, perform tests for normality, and conduct a One-Way ANOVA.</p>
 
 <p>A graph will be produced comparing all stages.</p>
+
+<h2>Running the analysis</h2>
+
+<p>To run the analysis, you must set a working directory in R that directs to your files.
+The files should be named noprobe.csv, probe.csv (ex. pgc1beta.csv)
+For the time being, you will have to set the probe file manually in the script. Hopefully I can add prompts in the future.
+Once that is set, you can just run the entire script.</p>
 
 </body>
 

@@ -15,19 +15,20 @@ Image ID | Sample ID | Stage | Probe | Spot ID | Region ID | Count | Area | Thre
 Name.tif | NC1 | Normal | PGC1beta | A | 1 | 134 | 1391934 | 245
 
 Save the files in .csv format.
+Make sure that each Sample is named differently, or you will get inacurate results
 
 To do an analysis, you will need both the No Probe and Probe of interest files.
 
 Currently, the scripts will handle the following stages:
 
-*Normal
-*Tubular Adenoma
-*Stage 1
-*Stage 2
-*Stage 3
-*Stage 4
-*Stage 3 Metastasis
-*Stage 4 Metastasis
+* Normal
+* Tubular Adenoma
+* Stage 1
+* Stage 2
+* Stage 3
+* Stage 4
+* Stage 3 Metastasis
+* Stage 4 Metastasis
 
 ## Analysis
 
