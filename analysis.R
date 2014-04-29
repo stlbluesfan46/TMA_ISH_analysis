@@ -60,7 +60,7 @@ for (i in unique(probe_average$Sample.ID)){
     Spot.ID <<- j
     calcdfp <- subset(probe_average, probe_average$Sample.ID == i & probe_average$Spot.ID == j)
     calcdfnp <- subset(no_probe_average, no_probe_average$Sample.ID == i & no_probe_average$Spot.ID == j)
-    if (nrow(calcdfnp) > 0 & nrow(calcdfp) > 0){
+    if (nrow(calcdfnp) > 0 & nrow(calcdfp) > 0){ #checks to make sure there are values. if not, no match
         pmnp <- calcdfp$Average - calcdfnp$Average #probe minus no probe
         Stage <- unique(calcdfp$Stage)
         new <- data.frame(Sample.ID, Stage, Spot.ID, pmnp)
@@ -69,6 +69,23 @@ for (i in unique(probe_average$Sample.ID)){
   }
 }
 
-##Take average of each patient
+##Compute Fold Change
 
-##Compute fold change based on normal
+normals <- subset(probe_nobkgd, probe_nobkgd$Stage == "Normal")
+normal_average <- mean(normals$pmnp)
+probe_fc <- probe_nobkgd
+probe_fc$fc <- probe_nobkgd$pmnp / normal_average
+
+##stats - anova
+#test for normality
+shapiro.test(probe_fc$fc)
+#One-way ANOVA and Tukey post-hoc comparison test
+probe_aov <- aov(fc~Stage, probe_fc)
+summary(probe_aov)
+TukeyHSD(probe_aov)
+
+##graph time
+
+plot(probe_fc$Stage, probe_fc$fc)
+
+
