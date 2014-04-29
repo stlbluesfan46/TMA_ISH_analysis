@@ -71,10 +71,16 @@ for (i in unique(probe_average$Sample.ID)){
 
 ##Compute Fold Change
 
-normals <- subset(probe_nobkgd, probe_nobkgd$Stage == "Normal")
-normal_average <- mean(normals$pmnp)
+stage_average <- tapply(probe_nobkgd$pmnp, list(probe_nobkgd$Stage), mean, na.rm = T)
+
+#create new data frame containing old info plus fold change
 probe_fc <- probe_nobkgd
-probe_fc$fc <- probe_nobkgd$pmnp / normal_average
+probe_fc$fc <- probe_nobkgd$pmnp / stage_average["Normal"]
+
+stage_average_fc <- tapply(probe_fc$fc, list(probe_fc$Stage), mean, na.rm = T)
+
+##output fold change data
+write.csv(probe_fc, file = "pgc1beta-fc.csv")
 
 ##stats - anova
 #test for normality
@@ -87,5 +93,4 @@ TukeyHSD(probe_aov)
 ##graph time
 
 plot(probe_fc$Stage, probe_fc$fc)
-
 
