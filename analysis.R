@@ -8,6 +8,7 @@ no_probe$mRNA <- no_probe$Counts / no_probe$Area
 #data frame that can be used for the rest of the analysis
 
 no_probe_average <<- data.frame() #output data frame
+
 for (i in unique(no_probe$Sample.ID)){
   Sample.ID <<- i
   for (j in unique(no_probe$Spot.ID)){
@@ -33,6 +34,7 @@ probe$mRNA <- probe$Counts / probe$Area
 #data frame that can be used for the rest of the analysis
 
 probe_average <<- data.frame() #output data frame
+
 for (i in unique(probe$Sample.ID)){
   Sample.ID <<- i
   for (j in unique(probe$Spot.ID)){
@@ -46,3 +48,27 @@ for (i in unique(probe$Sample.ID)){
     }
   }
 }
+
+##Background Correction
+#Match patient and subtract no probe average from probe if available
+
+probe_nobkgd <<- data.frame() #output data frame
+
+for (i in unique(probe_average$Sample.ID)){
+  Sample.ID <<- i
+  for (j in unique(probe_average$Spot.ID)){
+    Spot.ID <<- j
+    calcdfp <- subset(probe_average, probe_average$Sample.ID == i & probe_average$Spot.ID == j)
+    calcdfnp <- subset(no_probe_average, no_probe_average$Sample.ID == i & no_probe_average$Spot.ID == j)
+    if (nrow(calcdfnp) > 0 & nrow(calcdfp) > 0){
+        pmnp <- calcdfp$Average - calcdfnp$Average #probe minus no probe
+        Stage <- unique(calcdfp$Stage)
+        new <- data.frame(Sample.ID, Stage, Spot.ID, pmnp)
+        probe_nobkgd <<- rbind(probe_nobkgd, new)
+    }
+  }
+}
+
+##Take average of each patient
+
+##Compute fold change based on normal
