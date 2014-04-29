@@ -1,0 +1,21 @@
+Image Name,Sample ID,Stage,Probe,Spot ID,Region ID,Area,Counts,Threshold
+TMA1-11 no probe_1A no probe_ch01,TAC3,Tubular Adenoma,No Probe,A,1,376604,19,145
+TMA1-11 no probe_1A no probe_ch01,TAC3,Tubular Adenoma,No Probe,A,2,18472,0,145
+TMA1-11 no probe_1A no probe_ch01,TAC3,Tubular Adenoma,No Probe,A,3,86615,6,145
+TMA1-11 no probe_1B no probe_ch01,TAC8,Tubular Adenoma,No Probe,A,1,107171,0,145
+TMA1-11 no probe_1B no probe_ch01,TAC8,Tubular Adenoma,No Probe,A,2,86249,0,145
+TMA1-11 no probe_1B no probe_ch01,TAC8,Tubular Adenoma,No Probe,A,3,211595,1,145
+TMA1-11 no probe_1C no probe_ch01,TAC6,Tubular Adenoma,No Probe,A,1,116521,2,145
+TMA1-11 no probe_1C no probe_ch01,TAC6,Tubular Adenoma,No Probe,A,2,253361,3,145
+TMA1-11 no probe_1C no probe_ch01,TAC6,Tubular Adenoma,No Probe,A,3,154783,5,145
+TMA1-11 no probe_1E no probe_ch01,ST3C9,Stage 3,No Probe,A,1,77139,1,145
+TMA1-11 no probe_1E no probe_ch01,ST3C9,Stage 3,No Probe,A,2,208205,0,145
+TMA1-11 no probe_1C no probe_ch01,TAC6,Tubular Adenoma,No Probe,B,1,116521,2,145
+TMA1-11 no probe_1C no probe_ch01,TAC6,Tubular Adenoma,No Probe,B,2,253361,3,145
+TMA1-11 no probe_1C no probe_ch01,TAC6,Tubular Adenoma,No Probe,B,3,154783,5,145
+TMA1-11 no probe_1E no probe_ch01,ST3C9,Stage 3,No Probe,B,1,77139,1,145
+TMA1-11 no probe_1E no probe_ch01,ST3C9,Stage 3,No Probe,B,2,208205,0,145
+TMA1-11 no probe_1A no probe_ch01,TAC3,Tubular Adenoma,No Probe,C,1,376604,19,145
+TMA1-11 no probe_1A no probe_ch01,TAC3,Tubular Adenoma,No Probe,C,2,18472,0,145
+TMA1-11 no probe_1A no probe_ch01,TAC3,Tubular Adenoma,No Probe,C,3,86615,6,145
+TMA1-11 no probe_1B no probe_ch01,TAC8,Tubular Adenoma,No Probe,C,1,107171,0,145
