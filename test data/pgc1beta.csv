@@ -1,62 +1,366 @@
 Image Name,Sample ID,Stage,Probe,Spot ID,Region ID,Area,Counts,Threshold
-TMA1-11 no probe_4G no probe_ch01,ST3C1,Stage 3,No Probe,A,1,23605,0,135
-TMA1-11 no probe_4G no probe_ch01,ST3C1,Stage 3,No Probe,A,2,32809,6,135
-TMA1-11 no probe_4G no probe_ch01,ST3C1,Stage 3,No Probe,A,3,55923,1,135
-TMA1-11 no probe_5G no probe_ch01,ST3C1,Stage 3,No Probe,B,1,54730,0,135
-TMA1-11 no probe_5G no probe_ch01,ST3C1,Stage 3,No Probe,B,2,56155,2,135
-TMA1-11 no probe_5G no probe_ch01,ST3C1,Stage 3,No Probe,B,3,32720,1,135
-TMA1-11 no probe_6G no probe_ch01,ST3C1,Stage 3,No Probe,C,1,27475,2,135
-TMA1-11 no probe_6G no probe_ch01,ST3C1,Stage 3,No Probe,C,2,116709,2,135
-TMA1-11 no probe_6G no probe_ch01,ST3C1,Stage 3,No Probe,C,3,39039,3,135
-TMA1-11 no probe_4F no probe_ch01,ST3C5,Stage 3,No Probe,A,1,47693,2,145
-TMA1-11 no probe_4F no probe_ch01,ST3C5,Stage 3,No Probe,A,2,47729,0,145
-TMA1-11 no probe_4F no probe_ch01,ST3C5,Stage 3,No Probe,A,3,56426,0,145
-TMA1-11 no probe_5F no probe_ch01,ST3C5,Stage 3,No Probe,B,1,42285,2,135
-TMA1-11 no probe_5F no probe_ch01,ST3C5,Stage 3,No Probe,B,2,40596,1,135
-TMA1-11 no probe_5F no probe_ch01,ST3C5,Stage 3,No Probe,B,3,61513,4,135
-TMA1-11 no probe_6F no probe_ch01,ST3C5,Stage 3,No Probe,C,1,27324,0,145
-TMA1-11 no probe_6F no probe_ch01,ST3C5,Stage 3,No Probe,C,2,59310,1,145
-TMA1-11 no probe_6F no probe_ch01,ST3C5,Stage 3,No Probe,C,3,81287,0,145
-TMA1-11 no probe_1F no probe_ch01,ST3C7,Stage 3,No Probe,A,1,94549,2,135
-TMA1-11 no probe_1F no probe_ch01,ST3C7,Stage 3,No Probe,A,2,40840,1,135
-TMA1-11 no probe_1F no probe_ch01,ST3C7,Stage 3,No Probe,A,3,125315,0,135
-TMA1-11 no probe_2F no probe_ch01,ST3C7,Stage 3,No Probe,B,1,86058,0,145
-TMA1-11 no probe_2F no probe_ch01,ST3C7,Stage 3,No Probe,B,2,130858,0,145
-TMA1-11 no probe_2F no probe_ch01,ST3C7,Stage 3,No Probe,B,3,52744,0,145
-TMA1-11 no probe_3F no probe_ch01,ST3C7,Stage 3,No Probe,C,1,47440,4,135
-TMA1-11 no probe_3F no probe_ch01,ST3C7,Stage 3,No Probe,C,2,24585,0,135
-TMA1-11 no probe_3F no probe_ch01,ST3C7,Stage 3,No Probe,C,3,72253,0,135
-TMA1-11 no probe_1E no probe_ch01,ST3C9,Stage 3,No Probe,A,1,77139,1,145
-TMA1-11 no probe_1E no probe_ch01,ST3C9,Stage 3,No Probe,A,2,208205,0,145
-TMA1-11 no probe_1E no probe_ch01,ST3C9,Stage 3,No Probe,A,3,111803,0,145
-TMA1-11 no probe_2E no probe_ch01,ST3C9,Stage 3,No Probe,B,1,131290,0,145
-TMA1-11 no probe_2E no probe_ch01,ST3C9,Stage 3,No Probe,B,2,67273,0,145
-TMA1-11 no probe_2E no probe_ch01,ST3C9,Stage 3,No Probe,B,3,125785,1,145
-TMA1-11 no probe_3E no probe_ch01,ST3C9,Stage 3,No Probe,C,1,147669,0,145
-TMA1-11 no probe_3E no probe_ch01,ST3C9,Stage 3,No Probe,C,2,198382,4,145
-TMA1-11 no probe_3E no probe_ch01,ST3C9,Stage 3,No Probe,C,3,74269,0,145
-TMA1-11 no probe_4C no probe_ch01,TAC1,Tubular Adenoma,No Probe,A,1,100943,2,145
-TMA1-11 no probe_4C no probe_ch01,TAC1,Tubular Adenoma,No Probe,A,2,50886,0,145
-TMA1-11 no probe_4C no probe_ch01,TAC1,Tubular Adenoma,No Probe,A,3,82838,0,145
-TMA1-11 no probe_5C no probe_ch01,TAC1,Tubular Adenoma,No Probe,B,1,40959,1,135
-TMA1-11 no probe_5C no probe_ch01,TAC1,Tubular Adenoma,No Probe,B,2,60423,1,135
-TMA1-11 no probe_5C no probe_ch01,TAC1,Tubular Adenoma,No Probe,B,3,55529,0,135
-TMA1-11 no probe_6C no probe_ch01,TAC1,Tubular Adenoma,No Probe,C,1,103054,6,135
-TMA1-11 no probe_6C no probe_ch01,TAC1,Tubular Adenoma,No Probe,C,2,48593,1,135
-TMA1-11 no probe_6C no probe_ch01,TAC1,Tubular Adenoma,No Probe,C,3,181600,7,135
-TMA1-11 no probe_4D no probe_ch01,TAC10,Tubular Adenoma,No Probe,A,1,46278,0,135
-TMA1-11 no probe_4D no probe_ch01,TAC10,Tubular Adenoma,No Probe,A,2,48090,1,135
-TMA1-11 no probe_4D no probe_ch01,TAC10,Tubular Adenoma,No Probe,A,3,102314,1,135
-TMA1-11 no probe_5D no probe_ch01,TAC10,Tubular Adenoma,No Probe,B,1,70980,0,135
-TMA1-11 no probe_5D no probe_ch01,TAC10,Tubular Adenoma,No Probe,B,2,57966,1,135
-TMA1-11 no probe_5D no probe_ch01,TAC10,Tubular Adenoma,No Probe,B,3,41722,4,135
-TMA1-11 no probe_6D no probe_ch01,TAC10,Tubular Adenoma,No Probe,C,1,136740,1,145
-TMA1-11 no probe_6D no probe_ch01,TAC10,Tubular Adenoma,No Probe,C,2,85900,1,145
-TMA1-11 no probe_6D no probe_ch01,TAC10,Tubular Adenoma,No Probe,C,3,106717,0,145
-TMA1-11 no probe_1A no probe_ch01,TAC3,Tubular Adenoma,No Probe,A,1,376604,19,145
-TMA1-11 no probe_1A no probe_ch01,TAC3,Tubular Adenoma,No Probe,A,2,18472,0,145
-TMA1-11 no probe_1A no probe_ch01,TAC3,Tubular Adenoma,No Probe,A,3,86615,6,145
-TMA1-11 no probe_2A no probe_ch01,TAC3,Tubular Adenoma,No Probe,B,1,47192,0,145
-TMA1-11 no probe_2A no probe_ch01,TAC3,Tubular Adenoma,No Probe,B,2,43541,0,145
-TMA1-11 no probe_2A no probe_ch01,TAC3,Tubular Adenoma,No Probe,B,3,51321,0,145
-TMA1-11 no probe_3A no probe_ch01,TAC3,Tubular Adenoma,No Probe,C,1,77270,14,135
+normal pgc1beta case 31a_ch01,NC31,Normal,PGC1beta,A,1,45908,6,245
+normal pgc1beta case 31a_ch01,NC31,Normal,PGC1beta,A,2,51510,14,245
+normal pgc1beta case 31a_ch01,NC31,Normal,PGC1beta,A,3,70175,2,245
+normal pgc1 beta case 31b_ch01,NC31,Normal,PGC1beta,B,1,52297,43,245
+normal pgc1 beta case 31b_ch01,NC31,Normal,PGC1beta,B,2,46764,11,245
+normal pgc1 beta case 31b_ch01,NC31,Normal,PGC1beta,B,3,63721,7,245
+normal pgc 1 beta case 31 c_ch01,NC31,Normal,PGC1beta,C,1,37904,39,255
+normal pgc 1 beta case 31 c_ch01,NC31,Normal,PGC1beta,C,2,26652,25,255
+normal pgc 1 beta case 31 c_ch01,NC31,Normal,PGC1beta,C,3,38341,10,255
+norma pgc1 beta case 32 a_ch01,NC32,Normal,PGC1beta,A,1,63295,9,245
+norma pgc1 beta case 32 a_ch01,NC32,Normal,PGC1beta,A,2,42091,1,245
+norma pgc1 beta case 32 a_ch01,NC32,Normal,PGC1beta,A,3,32928,3,245
+normal pgc1 beta case 32 b_ch01,NC32,Normal,PGC1beta,B,1,33755,4,235
+normal pgc1 beta case 32 b_ch01,NC32,Normal,PGC1beta,B,2,25276,3,235
+normal pgc1 beta probe case 32 c_ch01,NC32,Normal,PGC1beta,C,1,49736,50,245
+normal pgc1 beta probe case 32 c_ch01,NC32,Normal,PGC1beta,C,2,65566,36,245
+normal pgc1 beta probe case 32 c_ch01,NC32,Normal,PGC1beta,C,3,42182,27,245
+normal pgc1 beta case 33b_ch01,NC33,Normal,PGC1beta,B,1,41594,25,245
+normal pgc1 beta case 33b_ch01,NC33,Normal,PGC1beta,B,2,53549,30,245
+normal pgc1 beta case 33b_ch01,NC33,Normal,PGC1beta,B,3,19681,29,245
+normal pgc1 beta case 33c_ch01,NC33,Normal,PGC1beta,C,1,19456,4,245
+normal pgc1 beta case 33c_ch01,NC33,Normal,PGC1beta,C,2,26503,16,245
+normal pgc1 beta case 33c_ch01,NC33,Normal,PGC1beta,C,3,22264,6,245
+normal pgc1 beta case 34 b_ch01,NC34,Normal,PGC1beta,B,1,29830,3,235
+normal pgc1 beta case 34 b_ch01,NC34,Normal,PGC1beta,B,2,23411,2,235
+normal pgc1 beta case 34 b_ch01,NC34,Normal,PGC1beta,B,3,24262,6,235
+normal pgc1 beta case  34 c_ch01,NC34,Normal,PGC1beta,C,1,24480,4,235
+normal pgc1 beta case  34 c_ch01,NC34,Normal,PGC1beta,C,2,29215,16,235
+normal pgc1 beta case  34 c_ch01,NC34,Normal,PGC1beta,C,3,17866,28,235
+normal pgc1 beta case 35 b_ch01,NC35,Normal,PGC1beta,B,1,48347,24,245
+normal pgc1 beta case 35 b_ch01,NC35,Normal,PGC1beta,B,2,69036,22,245
+normal pgc1 beta case 35 b_ch01,NC35,Normal,PGC1beta,B,3,39963,11,245
+normal pgc1 beta case 35c_ch01,NC35,Normal,PGC1beta,C,1,82699,18,235
+normal pgc1 beta case 35c_ch01,NC35,Normal,PGC1beta,C,2,98009,53,235
+normal pgc1 beta case 35c_ch01,NC35,Normal,PGC1beta,C,3,100018,17,235
+normal pgc1 beta case 36b_ch01,NC36,Normal,PGC1beta,B,1,34122,41,245
+normal pgc1 beta case 36b_ch01,NC36,Normal,PGC1beta,B,2,25411,14,245
+normal pgc1 beta case 36b_ch01,NC36,Normal,PGC1beta,B,3,10101,13,245
+normal pgc1 beta case 36c_ch01,NC36,Normal,PGC1beta,C,1,46197,39,245
+normal pgc1 beta case 36c_ch01,NC36,Normal,PGC1beta,C,2,77186,45,245
+normal pgc1 beta case 36c_ch01,NC36,Normal,PGC1beta,C,3,24877,5,245
+normal pgc1 beta case 37b_ch01,NC37,Normal,PGC1beta,B,1,36351,26,245
+normal pgc1 beta case 37b_ch01,NC37,Normal,PGC1beta,B,2,36659,21,245
+normal pgc1 beta case 37b_ch01,NC37,Normal,PGC1beta,B,3,53514,44,245
+normal pgc1 beta case 37c_ch01,NC37,Normal,PGC1beta,C,1,85690,27,245
+normal pgc1 beta case 37c_ch01,NC37,Normal,PGC1beta,C,2,46006,13,245
+normal pgc1 beta case 37c_ch01,NC37,Normal,PGC1beta,C,3,45076,16,245
+normal pgc1 beta case 38_ch01,NC38,Normal,PGC1beta,A,1,69105,25,245
+normal pgc1 beta case 38_ch01,NC38,Normal,PGC1beta,A,2,36184,5,245
+normal pgc1 beta case 38_ch01,NC38,Normal,PGC1beta,A,3,40125,5,245
+normal pgc1 beta case38b_ch01,NC38,Normal,PGC1beta,B,1,50870,8,245
+normal pgc1 beta case38b_ch01,NC38,Normal,PGC1beta,B,2,61126,38,245
+normal pgc1 beta case38b_ch01,NC38,Normal,PGC1beta,B,3,36692,13,245
+normal pgc1 beta case 38c_ch01,NC38,Normal,PGC1beta,C,1,71921,42,245
+normal pgc1 beta case 38c_ch01,NC38,Normal,PGC1beta,C,2,54878,5,245
+normal pgc1 beta case 38c_ch01,NC38,Normal,PGC1beta,C,3,45397,29,245
+normal pgc1 beta case39a_ch01,NC39,Normal,PGC1beta,A,1,114633,41,245
+normal pgc1 beta case39a_ch01,NC39,Normal,PGC1beta,A,2,119190,60,245
+normal pgc1 beta case39a_ch01,NC39,Normal,PGC1beta,A,3,142847,67,245
+normal pgc1 beta case39b_ch01,NC39,Normal,PGC1beta,B,1,47078,52,245
+normal pgc1 beta case39b_ch01,NC39,Normal,PGC1beta,B,2,63387,56,245
+normal pgc1 beta case39b_ch01,NC39,Normal,PGC1beta,B,3,46843,38,245
+normal  pgc1 beta case40a_ch01,NC40,Normal,PGC1beta,A,1,71299,21,235
+normal  pgc1 beta case40a_ch01,NC40,Normal,PGC1beta,A,2,57595,32,235
+normal  pgc1 beta case40a_ch01,NC40,Normal,PGC1beta,A,3,104992,18,235
+normal pgc1beta case40b_ch01,NC40,Normal,PGC1beta,B,1,101137,92,245
+normal pgc1beta case40b_ch01,NC40,Normal,PGC1beta,B,2,128394,135,245
+normal pgc1beta case40b_ch01,NC40,Normal,PGC1beta,B,3,67831,50,245
+stage 1 pgc1 beta case1 a_ch01,ST1C1,Stage 1,PGC1beta,A,1,65995,73,245
+stage 1 pgc1 beta case1 a_ch01,ST1C1,Stage 1,PGC1beta,A,2,64852,27,245
+stage 1 pgc1 beta case1 a_ch01,ST1C1,Stage 1,PGC1beta,A,3,63548,38,245
+stage 1 pgc1 beta case1 c_ch01,ST1C1,Stage 1,PGC1beta,C,1,117147,62,245
+stage 1 pgc1 beta case1 c_ch01,ST1C1,Stage 1,PGC1beta,C,2,104885,63,245
+stage 1 pgc1 beta case1 c_ch01,ST1C1,Stage 1,PGC1beta,C,3,75755,47,245
+stage 1 pgc1beta case10b_ch01,ST1C10,Stage 1,PGC1beta,B,1,99581,97,245
+stage 1 pgc1beta case10b_ch01,ST1C10,Stage 1,PGC1beta,B,2,61807,52,245
+stage 1 pgc1beta case10b_ch01,ST1C10,Stage 1,PGC1beta,B,3,13476,24,245
+stage 1 pgc1 beta cas10c_ch01,ST1C10,Stage 1,PGC1beta,C,1,191077,56,245
+stage 1 pgc1 beta cas10c_ch01,ST1C10,Stage 1,PGC1beta,C,2,63862,29,245
+stage 1 pgc1 beta cas10c_ch01,ST1C10,Stage 1,PGC1beta,C,3,25583,10,245
+stage 1 pgc1 beta case 3 c_ch01,ST1C3,Stage 1,PGC1beta,C,1,162350,144,245
+stage 1 pgc1 beta case 3 c_ch01,ST1C3,Stage 1,PGC1beta,C,2,67480,42,245
+stage 1 pgc1 beta case 3 c_ch01,ST1C3,Stage 1,PGC1beta,C,3,28734,13,245
+stage 1 pgc1 beta case4 a_ch01,ST1C4,Stage 1,PGC1beta,A,1,117805,163,245
+stage 1 pgc1 beta case4 a_ch01,ST1C4,Stage 1,PGC1beta,A,2,54397,51,245
+stage 1 pgc1 beta case4 a_ch01,ST1C4,Stage 1,PGC1beta,A,3,77901,144,245
+stage 1 pgc1 beta case 4 b_ch01,ST1C4,Stage 1,PGC1beta,B,1,170081,280,245
+stage 1 pgc1 beta case 4 b_ch01,ST1C4,Stage 1,PGC1beta,B,2,93138,112,245
+stage 1 pgc1 beta case 4 b_ch01,ST1C4,Stage 1,PGC1beta,B,3,140445,188,245
+stage 1 pgc1 beta case 4c_ch01,ST1C4,Stage 1,PGC1beta,C,1,92604,76,245
+stage 1 pgc1 beta case 4c_ch01,ST1C4,Stage 1,PGC1beta,C,2,54533,65,245
+stage 1 pgc1 beta case 4c_ch01,ST1C4,Stage 1,PGC1beta,C,3,85426,81,245
+stage 1 pgc1 betA CASE 5a_ch01,ST1C5,Stage 1,PGC1beta,A,1,55065,7,245
+stage 1 pgc1 betA CASE 5a_ch01,ST1C5,Stage 1,PGC1beta,A,2,27253,3,245
+stage 1 pgc1 betA CASE 5a_ch01,ST1C5,Stage 1,PGC1beta,A,3,53219,2,245
+stage 1 pgc1 beta case 5b_ch01,ST1C5,Stage 1,PGC1beta,B,1,83835,79,245
+stage 1 pgc1 beta case 5b_ch01,ST1C5,Stage 1,PGC1beta,B,2,78498,92,245
+stage 1 pgc1 beta case 5b_ch01,ST1C5,Stage 1,PGC1beta,B,3,96520,160,245
+stage 1 pgc1 beta case 5c_ch01,ST1C5,Stage 1,PGC1beta,C,1,180798,294,245
+stage 1 pgc1 beta case 5c_ch01,ST1C5,Stage 1,PGC1beta,C,2,119416,130,245
+stage 1 pgc1 beta case 5c_ch01,ST1C5,Stage 1,PGC1beta,C,3,128979,87,245
+stage 1 pgc1 beta case 6a_ch01,ST1C6,Stage 1,PGC1beta,A,1,45501,62,245
+stage 1 pgc1 beta case 6a_ch01,ST1C6,Stage 1,PGC1beta,A,2,183835,248,245
+stage 1 pgc1 beta case 6a_ch01,ST1C6,Stage 1,PGC1beta,A,3,139667,148,245
+stage 1 pgc1 beta case 6b_ch01,ST1C6,Stage 1,PGC1beta,B,1,76608,108,245
+stage 1 pgc1 beta case 6b_ch01,ST1C6,Stage 1,PGC1beta,B,2,119720,227,245
+stage 1 pgc1 beta case 6b_ch01,ST1C6,Stage 1,PGC1beta,B,3,93646,151,245
+stage 1 pgc1 beta case 6c_ch01,ST1C6,Stage 1,PGC1beta,C,1,150698,219,245
+stage 1 pgc1 beta case 6c_ch01,ST1C6,Stage 1,PGC1beta,C,2,67697,65,245
+stage 1 pgc1 beta case 6c_ch01,ST1C6,Stage 1,PGC1beta,C,3,111375,111,245
+stage 1 pgcbeta case7a_ch01,ST1C7,Stage 1,PGC1beta,A,1,86029,41,245
+stage 1 pgcbeta case7a_ch01,ST1C7,Stage 1,PGC1beta,A,2,79091,32,245
+stage 1 pgcbeta case7a_ch01,ST1C7,Stage 1,PGC1beta,A,3,38847,18,245
+stage 1 pgc1 beta case7b_ch01,ST1C7,Stage 1,PGC1beta,B,1,103146,92,245
+stage 1 pgc1 beta case7b_ch01,ST1C7,Stage 1,PGC1beta,B,2,103400,143,245
+stage 1 pgc1 beta case7b_ch01,ST1C7,Stage 1,PGC1beta,B,3,71357,84,245
+stage 1 pgc1 beta case 7c_ch01,ST1C7,Stage 1,PGC1beta,C,1,93617,66,245
+stage 1 pgc1 beta case 7c_ch01,ST1C7,Stage 1,PGC1beta,C,2,95154,38,245
+stage 1 pgc1 beta case 7c_ch01,ST1C7,Stage 1,PGC1beta,C,3,64017,40,245
+stage 1 pgc1beta case 8b_ch01,ST1C8,Stage 1,PGC1beta,B,,,63,265
+stage 1 pgc1beta case 8b_ch01,ST1C8,Stage 1,PGC1beta,B,,,89,265
+stage 1 pgc1beta case 8b_ch01,ST1C8,Stage 1,PGC1beta,B,,,53,265
+stage 1 pgc1 beta case8c_ch01,ST1C8,Stage 1,PGC1beta,C,1,272328,268,265
+stage 1 pgc1 beta case8c_ch01,ST1C8,Stage 1,PGC1beta,C,2,268377,210,265
+stage 1 pgc1 beta case8c_ch01,ST1C8,Stage 1,PGC1beta,C,3,49768,47,265
+stage 1 pgc1 beta case9a_ch01,ST1C9,Stage 1,PGC1beta,A,1,109700,150,255
+stage 1 pgc1 beta case9a_ch01,ST1C9,Stage 1,PGC1beta,A,2,87775,124,255
+stage 1 pgc1 beta case9a_ch01,ST1C9,Stage 1,PGC1beta,A,3,52583,64,255
+stage 1 pgc1 beta case9b_ch01,ST1C9,Stage 1,PGC1beta,B,1,55486,77,245
+stage 1 pgc1 beta case9b_ch01,ST1C9,Stage 1,PGC1beta,B,2,98656,182,245
+stage 1 pgc1 beta case9b_ch01,ST1C9,Stage 1,PGC1beta,B,3,78664,118,245
+stage 1 pgc1 beta case 9 c_ch01,ST1C9,Stage 1,PGC1beta,C,1,49366,62,265
+stage 1 pgc1 beta case 9 c_ch01,ST1C9,Stage 1,PGC1beta,C,2,57463,42,265
+stage 1 pgc1 beta case 9 c_ch01,ST1C9,Stage 1,PGC1beta,C,3,121482,212,265
+stage 2 pgc1 beta case 11 a_ch01,ST2C11,Stage 2,PGC1beta,A,1,131603,41,235
+stage 2 pgc1 beta case 11 a_ch01,ST2C11,Stage 2,PGC1beta,A,2,174974,140,235
+stage 2 pgc1 beta case 11 a_ch01,ST2C11,Stage 2,PGC1beta,A,3,192592,114,235
+stage 2 pgc1 beta case11 b_ch01,ST2C11,Stage 2,PGC1beta,B,1,142056,74,215
+stage 2 pgc1 beta case11 b_ch01,ST2C11,Stage 2,PGC1beta,B,2,109857,55,215
+stage 2 pgc1 beta case11 b_ch01,ST2C11,Stage 2,PGC1beta,B,3,115640,30,215
+stage 2 pgc1 beta probe case 12 a_ch01,ST2C12,Stage 2,PGC1beta,A,1,148957,116,235
+stage 2 pgc1 beta probe case 12 a_ch01,ST2C12,Stage 2,PGC1beta,A,2,76264,65,235
+stage 2 pgc1 beta probe case 12 a_ch01,ST2C12,Stage 2,PGC1beta,A,3,46616,18,235
+stage 2 pgc1 beta probe case 12 b_ch01,ST2C12,Stage 2,PGC1beta,B,1,126763,241,235
+stage 2 pgc1 beta probe case 12 b_ch01,ST2C12,Stage 2,PGC1beta,B,2,180881,233,235
+stage 2 pgc1 beta probe case 12 b_ch01,ST2C12,Stage 2,PGC1beta,B,3,84168,149,235
+stage 2 pgc1 beta case 12 c_ch01,ST2C12,Stage 2,PGC1beta,C,1,314320,200,245
+stage 2 pgc1 beta case 12 c_ch01,ST2C12,Stage 2,PGC1beta,C,2,115071,84,245
+stage 2 pgc1 beta case 12 c_ch01,ST2C12,Stage 2,PGC1beta,C,3,120661,34,245
+stage 2 pgc1 beta case 14 a_ch01,ST2C14,Stage 2,PGC1beta,A,1,285911,211,265
+stage 2 pgc1 beta case 14 a_ch01,ST2C14,Stage 2,PGC1beta,A,2,118572,65,265
+stage 2 pgc1 beta case 14 a_ch01,ST2C14,Stage 2,PGC1beta,A,3,84787,111,265
+stage 2 pgc1 beta case 14 b_ch01,ST2C14,Stage 2,PGC1beta,B,1,231669,292,265
+stage 2 pgc1 beta case 14 b_ch01,ST2C14,Stage 2,PGC1beta,B,2,159851,169,265
+stage 2 pgc1 beta case 14 b_ch01,ST2C14,Stage 2,PGC1beta,B,3,118898,123,265
+stage 2 pgc1 beta case 14 c_ch01,ST2C14,Stage 2,PGC1beta,C,1,160456,227,265
+stage 2 pgc1 beta case 14 c_ch01,ST2C14,Stage 2,PGC1beta,C,2,151914,170,265
+stage 2 pgc1 beta case 14 c_ch01,ST2C14,Stage 2,PGC1beta,C,3,127373,115,265
+stage 2 pgc1 beta case 15a_ch01,ST2C15,Stage 2,PGC1beta,A,1,170462,124,315
+stage 2 pgc1 beta case 15a_ch01,ST2C15,Stage 2,PGC1beta,A,2,307564,230,315
+stage 2 pgc1 beta case 15a_ch01,ST2C15,Stage 2,PGC1beta,A,3,148001,124,315
+stage 2 pgc1 beta case 15b_ch01,ST2C15,Stage 2,PGC1beta,B,1,91830,115,265
+stage 2 pgc1 beta case 15b_ch01,ST2C15,Stage 2,PGC1beta,B,2,78724,59,265
+stage 2 pgc1 beta case 15b_ch01,ST2C15,Stage 2,PGC1beta,B,3,165343,136,265
+stage 2 pgc1 beta case 15c_ch01,ST2C15,Stage 2,PGC1beta,C,1,163551,136,295
+stage 2 pgc1 beta case 15c_ch01,ST2C15,Stage 2,PGC1beta,C,2,239118,121,295
+stage 2 pgc1 beta case 15c_ch01,ST2C15,Stage 2,PGC1beta,C,3,139343,97,295
+stage 2 pgc1 beta case 16 a_ch01,ST2C16,Stage 2,PGC1beta,A,1,112328,45,235
+stage 2 pgc1 beta case 16 a_ch01,ST2C16,Stage 2,PGC1beta,A,2,320452,326,235
+stage 2 pgc1 beta case 16 a_ch01,ST2C16,Stage 2,PGC1beta,A,3,208885,274,235
+stage 2 pgc1 beta case 16c_ch01,ST2C16,Stage 2,PGC1beta,C,1,163575,92,245
+stage 2 pgc1 beta case 16c_ch01,ST2C16,Stage 2,PGC1beta,C,2,177633,115,245
+stage 2 pgc1 beta case 16c_ch01,ST2C16,Stage 2,PGC1beta,C,3,106964,93,245
+stage 2 pgc1 beta case 17a_ch01,ST2C17,Stage 2,PGC1beta,A,1,150615,116,295
+stage 2 pgc1 beta case 17a_ch01,ST2C17,Stage 2,PGC1beta,A,2,152025,107,295
+stage 2 pgc1 beta case 17a_ch01,ST2C17,Stage 2,PGC1beta,A,3,228132,222,295
+stage 2 pgc1 beta case 17b_ch01,ST2C17,Stage 2,PGC1beta,B,1,118002,69,235
+stage 2 pgc1 beta case 17b_ch01,ST2C17,Stage 2,PGC1beta,B,2,128314,60,235
+stage 2 pgc1 beta case 17b_ch01,ST2C17,Stage 2,PGC1beta,B,3,24827,5,235
+stage 2 pgc1 beta case 17c_ch01,ST2C17,Stage 2,PGC1beta,C,1,81440,62,295
+stage 2 pgc1 beta case 17c_ch01,ST2C17,Stage 2,PGC1beta,C,2,160774,146,295
+stage 2 pgc1 beta case 17c_ch01,ST2C17,Stage 2,PGC1beta,C,3,57467,45,295
+stage 2 pgc1 beta case18a_ch01,ST2C18,Stage 2,PGC1beta,A,1,193354,250,265
+stage 2 pgc1 beta case18a_ch01,ST2C18,Stage 2,PGC1beta,A,2,56784,63,265
+stage 2 pgc1 beta case18a_ch01,ST2C18,Stage 2,PGC1beta,A,3,91035,69,265
+stage 2 pgc1 beta case18b_ch01,ST2C18,Stage 2,PGC1beta,B,1,158915,213,315
+stage 2 pgc1 beta case18b_ch01,ST2C18,Stage 2,PGC1beta,B,2,216046,312,315
+stage 2 pgc1 beta case18b_ch01,ST2C18,Stage 2,PGC1beta,B,3,122361,226,315
+stage 2 pgc1 beta case 18c_ch01,ST2C18,Stage 2,PGC1beta,C,1,149531,282,255
+stage 2 pgc1 beta case 18c_ch01,ST2C18,Stage 2,PGC1beta,C,2,244202,472,255
+stage 2 pgc1 beta case 18c_ch01,ST2C18,Stage 2,PGC1beta,C,3,147645,290,255
+stage 2 pgc1 beta case19a_ch01,ST2C19,Stage 2,PGC1beta,A,1,95606,56,225
+stage 2 pgc1 beta case19a_ch01,ST2C19,Stage 2,PGC1beta,A,2,118420,81,225
+stage 2 pgc1 beta case19a_ch01,ST2C19,Stage 2,PGC1beta,A,3,146719,137,225
+stage 2 pgc1 beta case19b_ch01,ST2C19,Stage 2,PGC1beta,B,1,235716,130,235
+stage 2 pgc1 beta case19b_ch01,ST2C19,Stage 2,PGC1beta,B,2,158857,37,235
+stage 2 pgc1 beta case19b_ch01,ST2C19,Stage 2,PGC1beta,B,3,87735,52,235
+stage 2 pgc1 beta case19c_ch01,ST2C19,Stage 2,PGC1beta,C,1,243731,110,255
+stage 2 pgc1 beta case19c_ch01,ST2C19,Stage 2,PGC1beta,C,2,123592,90,255
+stage 2 pgc1 beta case19c_ch01,ST2C19,Stage 2,PGC1beta,C,3,131838,79,255
+stage 2 pgc1 beta case20c_ch01,ST2C20,Stage 2,PGC1beta,C,1,85501,36,235
+stage 2 pgc1 beta case20c_ch01,ST2C20,Stage 2,PGC1beta,C,2,163552,46,235
+TMA1a-8 PGC1b_4G PGC1b_ch01,ST3C1,Stage 3,PGC1beta,A,1,73284,5,135
+TMA1a-8 PGC1b_4G PGC1b_ch01,ST3C1,Stage 3,PGC1beta,A,2,59277,5,135
+TMA1a-8 PGC1b_4G PGC1b_ch01,ST3C1,Stage 3,PGC1beta,A,3,69379,6,135
+TMA1a-8 PGC1b_5G PGC1b_ch01,ST3C1,Stage 3,PGC1beta,B,1,103111,6,135
+TMA1a-8 PGC1b_5G PGC1b_ch01,ST3C1,Stage 3,PGC1beta,B,2,83426,4,135
+TMA1a-8 PGC1b_5G PGC1b_ch01,ST3C1,Stage 3,PGC1beta,B,3,37185,1,135
+TMA1a-8 PGC1b_6G PGC1b_ch01,ST3C1,Stage 3,PGC1beta,C,1,105891,26,135
+TMA1a-8 PGC1b_6G PGC1b_ch01,ST3C1,Stage 3,PGC1beta,C,2,24131,8,135
+TMA1a-8 PGC1b_6G PGC1b_ch01,ST3C1,Stage 3,PGC1beta,C,3,23750,2,135
+TMA1a-8 PGC1b_4F PGC1b_ch01,ST3C5,Stage 3,PGC1beta,A,1,55392,6,135
+TMA1a-8 PGC1b_4F PGC1b_ch01,ST3C5,Stage 3,PGC1beta,A,2,71946,47,135
+TMA1a-8 PGC1b_4F PGC1b_ch01,ST3C5,Stage 3,PGC1beta,A,3,49884,17,135
+TMA1a-8 PGC1b_5F PGC1b_ch01,ST3C5,Stage 3,PGC1beta,B,1,85867,15,135
+TMA1a-8 PGC1b_5F PGC1b_ch01,ST3C5,Stage 3,PGC1beta,B,2,24575,2,135
+TMA1a-8 PGC1b_5F PGC1b_ch01,ST3C5,Stage 3,PGC1beta,B,3,99631,28,135
+TMA1a-8 PGC1b_6F PGC1b_ch01,ST3C5,Stage 3,PGC1beta,C,1,57521,29,135
+TMA1a-8 PGC1b_6F PGC1b_ch01,ST3C5,Stage 3,PGC1beta,C,2,87187,26,135
+TMA1a-8 PGC1b_6F PGC1b_ch01,ST3C5,Stage 3,PGC1beta,C,3,31440,10,135
+TMA1a-8 PGC1b_1F PGC1b_ch01,ST3C7,Stage 3,PGC1beta,A,1,131601,4,135
+TMA1a-8 PGC1b_1F PGC1b_ch01,ST3C7,Stage 3,PGC1beta,A,2,47871,2,135
+TMA1a-8 PGC1b_1F PGC1b_ch01,ST3C7,Stage 3,PGC1beta,A,3,63457,0,135
+TMA1a-8 PGC1b_2F PGC1b_ch01,ST3C7,Stage 3,PGC1beta,B,1,136985,41,135
+TMA1a-8 PGC1b_2F PGC1b_ch01,ST3C7,Stage 3,PGC1beta,B,2,86747,48,135
+TMA1a-8 PGC1b_2F PGC1b_ch01,ST3C7,Stage 3,PGC1beta,B,3,69632,29,135
+TMA1a-8 PGC1b_3F PGC1b_ch01,ST3C7,Stage 3,PGC1beta,C,1,69674,29,135
+TMA1a-8 PGC1b_3F PGC1b_ch01,ST3C7,Stage 3,PGC1beta,C,2,170428,21,135
+TMA1a-8 PGC1b_3F PGC1b_ch01,ST3C7,Stage 3,PGC1beta,C,3,214317,61,135
+TMA1a-8 PGC1b_1E PGC1b_ch01,ST3C9,Stage 3,PGC1beta,A,1,56945,0,135
+TMA1a-8 PGC1b_1E PGC1b_ch01,ST3C9,Stage 3,PGC1beta,A,2,57935,2,135
+TMA1a-8 PGC1b_1E PGC1b_ch01,ST3C9,Stage 3,PGC1beta,A,3,107574,2,135
+TMA1a-8 PGC1b_2E PGC1b_ch01,ST3C9,Stage 3,PGC1beta,B,1,72360,33,135
+TMA1a-8 PGC1b_2E PGC1b_ch01,ST3C9,Stage 3,PGC1beta,B,2,81793,43,135
+TMA1a-8 PGC1b_2E PGC1b_ch01,ST3C9,Stage 3,PGC1beta,B,3,67431,26,135
+TMA1a-8 PGC1b_3E PGC1b_ch01,ST3C9,Stage 3,PGC1beta,C,1,155535,118,135
+TMA1a-8 PGC1b_3E PGC1b_ch01,ST3C9,Stage 3,PGC1beta,C,2,168199,75,135
+TMA1a-8 PGC1b_3E PGC1b_ch01,ST3C9,Stage 3,PGC1beta,C,3,112625,39,135
+stage4 pgc1 beta case 41a_ch01,ST4C41,Stage 4,PGC1beta,A,1,138788,79,215
+stage4 pgc1 beta case 41a_ch01,ST4C41,Stage 4,PGC1beta,A,2,165775,150,215
+stage4 pgc1 beta case 41a_ch01,ST4C41,Stage 4,PGC1beta,A,3,113595,103,215
+stage 4 pgc1 beta case 41 b_ch01,ST4C41,Stage 4,PGC1beta,B,1,26467,7,215
+stage 4 pgc1 beta case 41 b_ch01,ST4C41,Stage 4,PGC1beta,B,2,110240,71,215
+stage 4 pgc1 beta case 41 b_ch01,ST4C41,Stage 4,PGC1beta,B,3,116252,29,215
+stage 4 pgc1 beta probe case 41 c_ch01,ST4C41,Stage 4,PGC1beta,C,1,36492,4,315
+stage 4 pgc1 beta probe case 41 c_ch01,ST4C41,Stage 4,PGC1beta,C,2,56352,41,315
+stage 4 pgc1 beta probe case 41 c_ch01,ST4C41,Stage 4,PGC1beta,C,3,40685,12,315
+stage4 pgc1 beta case 42b_ch01,ST4C42,Stage 4,PGC1beta,B,1,40168,0,215
+stage4 pgc1 beta case 42b_ch01,ST4C42,Stage 4,PGC1beta,B,2,26087,2,215
+stage 4 pgc1 beta case 43a_ch01,ST4C43,Stage 4,PGC1beta,A,1,107715,29,215
+stage 4 pgc1 beta case 43a_ch01,ST4C43,Stage 4,PGC1beta,A,2,26045,8,215
+stage 4 pgc1 beta case43 b_ch01,ST4C43,Stage 4,PGC1beta,B,1,58517,16,225
+stage 4 pgc1 beta case43 b_ch01,ST4C43,Stage 4,PGC1beta,B,2,76939,13,225
+stage 4 pgc1 beta case43 b_ch01,ST4C43,Stage 4,PGC1beta,B,3,82366,22,225
+stage 4 pgc1 beta case 44a_ch01,ST4C44,Stage 4,PGC1beta,A,1,126159,50,225
+stage 4 pgc1 beta case 44a_ch01,ST4C44,Stage 4,PGC1beta,A,2,47855,35,225
+stage 4 pgc1 beta case 44a_ch01,ST4C44,Stage 4,PGC1beta,A,3,46038,32,225
+stage4 pgc1 beta case 44 b_ch01-2,ST4C44,Stage 4,PGC1beta,B,1,172982,51,245
+stage4 pgc1 beta case 44 b_ch01-2,ST4C44,Stage 4,PGC1beta,B,2,63444,16,245
+stage4 pgc1 beta case 44 b_ch01-2,ST4C44,Stage 4,PGC1beta,B,3,74206,32,245
+stage4 pgc1 beta case 45a_ch01,ST4C45,Stage 4,PGC1beta,A,1,194382,28,255
+stage4 pgc1 beta case 45a_ch01,ST4C45,Stage 4,PGC1beta,A,2,146653,26,255
+stage4 pgc1 beta case 45a_ch01,ST4C45,Stage 4,PGC1beta,A,3,164425,66,255
+stage4 pgc1 beta case 45b_ch01,ST4C45,Stage 4,PGC1beta,B,1,199145,67,235
+stage4 pgc1 beta case 45b_ch01,ST4C45,Stage 4,PGC1beta,B,2,216584,48,235
+stage4 pgc1 beta case 45b_ch01,ST4C45,Stage 4,PGC1beta,B,3,22364,17,235
+stage4 pgc1 beta case c45c_ch01,ST4C45,Stage 4,PGC1beta,C,1,93086,66,215
+stage4 pgc1 beta case c45c_ch01,ST4C45,Stage 4,PGC1beta,C,2,161027,89,215
+stage4 pgc1 beta case c45c_ch01,ST4C45,Stage 4,PGC1beta,C,3,141405,15,215
+stage 4 pgc1 beta case 46a_ch01,ST4C46,Stage 4,PGC1beta,A,1,229620,405,265
+stage 4 pgc1 beta case 46a_ch01,ST4C46,Stage 4,PGC1beta,A,2,106133,164,265
+stage 4 pgc1 beta case 46a_ch01,ST4C46,Stage 4,PGC1beta,A,3,111033,146,265
+stage4 pgc1 beta case 46b_ch01,ST4C46,Stage 4,PGC1beta,B,1,99797,148,235
+stage4 pgc1 beta case 46b_ch01,ST4C46,Stage 4,PGC1beta,B,2,130801,131,235
+stage4 pgc1 beta case 46b_ch01,ST4C46,Stage 4,PGC1beta,B,3,97605,63,235
+stage 4 pgc1 beta case 46c_ch01,ST4C46,Stage 4,PGC1beta,C,1,80299,61,315
+stage 4 pgc1 beta case 46c_ch01,ST4C46,Stage 4,PGC1beta,C,2,67451,13,315
+stage 4 pgc1 beta case 46c_ch01,ST4C46,Stage 4,PGC1beta,C,3,24581,10,315
+stage4 pgc1beta case 48b_ch01,ST4C48,Stage 4,PGC1beta,B,1,110646,108,265
+stage4 pgc1beta case 48b_ch01,ST4C48,Stage 4,PGC1beta,B,2,39785,39,265
+stage4 pgc1beta case 48b_ch01,ST4C48,Stage 4,PGC1beta,B,3,205973,181,265
+stage4 pgc beta case49a_ch01,ST4C49,Stage 4,PGC1beta,A,1,181725,164,225
+stage4 pgc beta case49a_ch01,ST4C49,Stage 4,PGC1beta,A,2,129021,101,225
+stage4 pgc beta case49a_ch01,ST4C49,Stage 4,PGC1beta,A,3,126659,74,225
+stage4 pgc1  beta case50c_ch01,ST4C50,Stage 4,PGC1beta,C,1,258975,137,315
+stage4 pgc1  beta case50c_ch01,ST4C50,Stage 4,PGC1beta,C,2,60384,18,315
+stage4 pgc1  beta case50c_ch01,ST4C50,Stage 4,PGC1beta,C,3,285438,156,315
+TMA1a-8 PGC1b_4C PGC1b_ch01,TAC1,Tubular Adenoma,PGC1beta,A,1,37656,5,135
+TMA1a-8 PGC1b_4C PGC1b_ch01,TAC1,Tubular Adenoma,PGC1beta,A,2,116075,45,135
+TMA1a-8 PGC1b_4C PGC1b_ch01,TAC1,Tubular Adenoma,PGC1beta,A,3,93621,44,135
+TMA1a-8 PGC1b_5C PGC1b_ch01,TAC1,Tubular Adenoma,PGC1beta,B,1,91757,44,135
+TMA1a-8 PGC1b_5C PGC1b_ch01,TAC1,Tubular Adenoma,PGC1beta,B,2,38472,6,135
+TMA1a-8 PGC1b_5C PGC1b_ch01,TAC1,Tubular Adenoma,PGC1beta,B,3,30601,6,135
+TMA1a-8 PGC1b_6C PGC1b_ch01,TAC1,Tubular Adenoma,PGC1beta,C,1,331257,96,135
+TMA1a-8 PGC1b_6C PGC1b_ch01,TAC1,Tubular Adenoma,PGC1beta,C,2,96218,26,135
+TMA1a-8 PGC1b_6C PGC1b_ch01,TAC1,Tubular Adenoma,PGC1beta,C,3,48012,10,135
+TMA1a-8 PGC1b_4D PGC1b_ch01,TAC10,Tubular Adenoma,PGC1beta,A,1,40902,23,135
+TMA1a-8 PGC1b_4D PGC1b_ch01,TAC10,Tubular Adenoma,PGC1beta,A,2,118206,83,135
+TMA1a-8 PGC1b_4D PGC1b_ch01,TAC10,Tubular Adenoma,PGC1beta,A,3,50451,41,135
+TMA1a-8 PGC1b_5D PGC1b_ch01,TAC10,Tubular Adenoma,PGC1beta,B,1,76257,23,135
+TMA1a-8 PGC1b_5D PGC1b_ch01,TAC10,Tubular Adenoma,PGC1beta,B,2,30653,8,135
+TMA1a-8 PGC1b_5D PGC1b_ch01,TAC10,Tubular Adenoma,PGC1beta,B,3,73114,17,135
+TMA1a-8 PGC1b_6D PGC1b_ch01,TAC10,Tubular Adenoma,PGC1beta,C,1,85221,115,135
+TMA1a-8 PGC1b_6D PGC1b_ch01,TAC10,Tubular Adenoma,PGC1beta,C,2,94954,134,135
+TMA1a-8 PGC1b_6D PGC1b_ch01,TAC10,Tubular Adenoma,PGC1beta,C,3,131159,180,135
+TMA1a-8 PGC1b_1a PGC1b_ch01,TAC3,Tubular Adenoma,PGC1beta,A,1,149913,24,135
+TMA1a-8 PGC1b_1a PGC1b_ch01,TAC3,Tubular Adenoma,PGC1beta,A,2,35351,4,135
+TMA1a-8 PGC1b_1a PGC1b_ch01,TAC3,Tubular Adenoma,PGC1beta,A,3,89261,8,135
+TMA1a-8 PGC1b_2A PGC1b_ch01,TAC3,Tubular Adenoma,PGC1beta,B,1,69016,2,135
+TMA1a-8 PGC1b_2A PGC1b_ch01,TAC3,Tubular Adenoma,PGC1beta,B,2,27249,1,135
+TMA1a-8 PGC1b_2A PGC1b_ch01,TAC3,Tubular Adenoma,PGC1beta,B,3,50888,1,135
+TMA1a-8 PGC1b_3A PGC1b_ch01,TAC3,Tubular Adenoma,PGC1beta,C,1,100096,33,135
+TMA1a-8 PGC1b_3A PGC1b_ch01,TAC3,Tubular Adenoma,PGC1beta,C,2,86271,24,135
+TMA1a-8 PGC1b_3A PGC1b_ch01,TAC3,Tubular Adenoma,PGC1beta,C,3,135934,26,135
+TMA1a-8 PGC1b_4B PGC1b_ch01,TAC4,Tubular Adenoma,PGC1beta,A,1,122349,39,135
+TMA1a-8 PGC1b_4B PGC1b_ch01,TAC4,Tubular Adenoma,PGC1beta,A,2,179334,30,135
+TMA1a-8 PGC1b_4B PGC1b_ch01,TAC4,Tubular Adenoma,PGC1beta,A,3,208079,69,135
+TMA1a-8 PGC1b_5B PGC1b_ch01,TAC4,Tubular Adenoma,PGC1beta,B,1,54551,71,135
+TMA1a-8 PGC1b_5B PGC1b_ch01,TAC4,Tubular Adenoma,PGC1beta,B,2,113374,122,135
+TMA1a-8 PGC1b_5B PGC1b_ch01,TAC4,Tubular Adenoma,PGC1beta,B,3,42777,49,135
+TMA1a-8 PGC1b_6B PGC1b_ch01,TAC4,Tubular Adenoma,PGC1beta,C,1,226291,180,135
+TMA1a-8 PGC1b_6B PGC1b_ch01,TAC4,Tubular Adenoma,PGC1beta,C,2,102627,83,135
+TMA1a-8 PGC1b_6B PGC1b_ch01,TAC4,Tubular Adenoma,PGC1beta,C,3,129027,109,135
+TMA1a-8 PGC1b_4E PGC1b_ch01,TAC5,Tubular Adenoma,PGC1beta,A,1,71374,58,135
+TMA1a-8 PGC1b_4E PGC1b_ch01,TAC5,Tubular Adenoma,PGC1beta,A,2,54175,46,135
+TMA1a-8 PGC1b_4E PGC1b_ch01,TAC5,Tubular Adenoma,PGC1beta,A,3,42664,50,135
+TMA1a-8 PGC1b_5E PGC1b_ch01,TAC5,Tubular Adenoma,PGC1beta,B,1,129872,95,135
+TMA1a-8 PGC1b_5E PGC1b_ch01,TAC5,Tubular Adenoma,PGC1beta,B,2,80059,53,135
+TMA1a-8 PGC1b_5E PGC1b_ch01,TAC5,Tubular Adenoma,PGC1beta,B,3,125893,64,135
+TMA1a-8 PGC1b_6E PGC1b_ch01,TAC5,Tubular Adenoma,PGC1beta,C,1,78855,31,135
+TMA1a-8 PGC1b_6E PGC1b_ch01,TAC5,Tubular Adenoma,PGC1beta,C,2,211245,75,135
+TMA1a-8 PGC1b_6E PGC1b_ch01,TAC5,Tubular Adenoma,PGC1beta,C,3,88276,26,135
+TMA1a-8 PGC1b_1C PGC1b_ch01,TAC6,Tubular Adenoma,PGC1beta,A,1,64402,3,135
+TMA1a-8 PGC1b_1C PGC1b_ch01,TAC6,Tubular Adenoma,PGC1beta,A,2,107737,6,135
+TMA1a-8 PGC1b_1C PGC1b_ch01,TAC6,Tubular Adenoma,PGC1beta,A,3,100856,5,135
+TMA1a-8 PGC1b_2C PGC1b_ch01,TAC6,Tubular Adenoma,PGC1beta,B,1,111928,27,135
+TMA1a-8 PGC1b_2C PGC1b_ch01,TAC6,Tubular Adenoma,PGC1beta,B,2,89640,24,135
+TMA1a-8 PGC1b_2C PGC1b_ch01,TAC6,Tubular Adenoma,PGC1beta,B,3,75826,16,135
+TMA1a-8 PGC1b_3C PGC1b_ch01,TAC6,Tubular Adenoma,PGC1beta,C,1,166332,74,135
+TMA1a-8 PGC1b_3C PGC1b_ch01,TAC6,Tubular Adenoma,PGC1beta,C,2,56525,28,135
+TMA1a-8 PGC1b_3C PGC1b_ch01,TAC6,Tubular Adenoma,PGC1beta,C,3,133005,19,135
+TMA1a-8 PGC1b_2D PGC1b_ch01,TAC7,Tubular Adenoma,PGC1beta,B,1,31541,12,135
+TMA1a-8 PGC1b_2D PGC1b_ch01,TAC7,Tubular Adenoma,PGC1beta,B,2,39844,26,135
+TMA1a-8 PGC1b_2D PGC1b_ch01,TAC7,Tubular Adenoma,PGC1beta,B,3,47627,17,135
+TMA1a-8 PGC1b_3D PGC1b_ch01,TAC7,Tubular Adenoma,PGC1beta,C,1,107260,27,135
+TMA1a-8 PGC1b_3D PGC1b_ch01,TAC7,Tubular Adenoma,PGC1beta,C,2,76730,30,135
+TMA1a-8 PGC1b_3D PGC1b_ch01,TAC7,Tubular Adenoma,PGC1beta,C,3,29212,13,135
+TMA1a-8 PGC1b_1b PGC1b_ch01,TAC8,Tubular Adenoma,PGC1beta,A,1,60234,6,135
+TMA1a-8 PGC1b_1b PGC1b_ch01,TAC8,Tubular Adenoma,PGC1beta,A,2,102220,8,135
+TMA1a-8 PGC1b_1b PGC1b_ch01,TAC8,Tubular Adenoma,PGC1beta,A,3,153731,21,135
+TMA1a-8 PGC1b_2B PGC1b_ch01,TAC8,Tubular Adenoma,PGC1beta,B,1,83299,12,135
+TMA1a-8 PGC1b_2B PGC1b_ch01,TAC8,Tubular Adenoma,PGC1beta,B,2,146298,8,135
+TMA1a-8 PGC1b_2B PGC1b_ch01,TAC8,Tubular Adenoma,PGC1beta,B,3,51135,7,135
+TMA1a-8 PGC1b_3B PGC1b_ch01,TAC8,Tubular Adenoma,PGC1beta,C,1,86758,6,135
+TMA1a-8 PGC1b_3B PGC1b_ch01,TAC8,Tubular Adenoma,PGC1beta,C,2,112058,26,135
+TMA1a-8 PGC1b_3B PGC1b_ch01,TAC8,Tubular Adenoma,PGC1beta,C,3,61455,19,135
+TMA1a-8 PGC1b_4a PGC1b_ch01,TAC9,Tubular Adenoma,PGC1beta,A,1,101102,14,135
+TMA1a-8 PGC1b_4a PGC1b_ch01,TAC9,Tubular Adenoma,PGC1beta,A,2,18614,0,135
+TMA1a-8 PGC1b_4a PGC1b_ch01,TAC9,Tubular Adenoma,PGC1beta,A,3,150704,71,135
+TMA1a-8 PGC1b_5A PGC1b_ch01,TAC9,Tubular Adenoma,PGC1beta,B,1,269369,177,135
+TMA1a-8 PGC1b_5A PGC1b_ch01,TAC9,Tubular Adenoma,PGC1beta,B,2,180642,98,135
+TMA1a-8 PGC1b_5A PGC1b_ch01,TAC9,Tubular Adenoma,PGC1beta,B,3,108106,69,135
+TMA1a-8 PGC1b_6A PGC1b_ch01,TAC9,Tubular Adenoma,PGC1beta,C,1,78800,3,135
+TMA1a-8 PGC1b_6A PGC1b_ch01,TAC9,Tubular Adenoma,PGC1beta,C,2,47205,1,135
+TMA1a-8 PGC1b_6A PGC1b_ch01,TAC9,Tubular Adenoma,PGC1beta,C,3,62665,0,135
