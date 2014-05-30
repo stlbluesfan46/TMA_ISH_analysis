@@ -14,7 +14,7 @@ for (i in unique(no_probe$Sample.ID)){
   for (j in unique(no_probe$Spot.ID)){
     Spot.ID <<- j
     calcdf <- subset(no_probe, no_probe$Sample.ID == i & no_probe$Spot.ID == j)
-    if (nrow(calcdf) > 1){ # removes a sample if there is less than 2 regions
+    if (nrow(calcdf) > 1){ # removes the sample if there is less than 2 regions
       Average <- mean(calcdf$mRNA)
       Stage <- unique(calcdf$Stage)
       new <- data.frame(Sample.ID, Stage, Spot.ID, Average)
@@ -69,13 +69,25 @@ for (i in unique(probe_average$Sample.ID)){
   }
 }
 
+##Average each patient
+probe_PA <<- data.frame() #Patient Average
+
+for (i in unique(probe_nobkgd$Sample.ID)){
+  Sample.ID <<- i
+  calcdf <- subset(probe_nobkgd, probe_nobkgd$Sample.ID == i)
+  Average <- mean(calcdf$pmnp)
+  Stage <- unique(calcdf$Stage)
+  new <- data.frame(Sample.ID, Stage, Average)
+  probe_PA <<- rbind(probe_PA, new) #generating the new data frame
+}
+
 ##Compute Fold Change
 
-stage_average <- tapply(probe_nobkgd$pmnp, list(probe_nobkgd$Stage), mean, na.rm = T)
+stage_average <- tapply(probe_PA$Average, list(probe_PA$Stage), mean, na.rm = T)
 
 #create new data frame containing old info plus fold change
-probe_fc <- probe_nobkgd
-probe_fc$fc <- probe_nobkgd$pmnp / stage_average["Normal"]
+probe_fc <- probe_PA
+probe_fc$fc <- probe_PA$Average / stage_average["Normal"]
 
 stage_average_fc <- tapply(probe_fc$fc, list(probe_fc$Stage), mean, na.rm = T)
 
