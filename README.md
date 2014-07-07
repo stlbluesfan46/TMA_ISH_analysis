@@ -10,25 +10,14 @@ Currently, the TMAs are set up with each patient having up to three replicate sp
 
 The data should be cleaned up in Excel and formatted into the following columns:
 
-Image ID | Sample ID | Stage | Probe | Spot ID | Region ID | Count | Area | Threshold
---- | --- | --- | --- | --- | --- | --- | --- | ---
-Name.tif | NC1 | Normal | PGC1beta | A | 1 | 134 | 1391934 | 245
+Image | Probe | TMA | Stage | Sample | Spot | Region | Area | Count | Threshold
+imageName.tif | No Probe | TMA1 | Normal | NC1 | A | 1 | 58136 | 6 | 195
+
 
 Save the files in .csv format.
-Make sure that each Sample is named differently, or you will get inacurate results
 
-To do an analysis, you will need both the No Probe and Probe of interest files.
+To do an analysis, you will need both the No Probe and Probe of Interest files.
 
-Currently, the scripts will handle the following stages:
-
-* Normal
-* Tubular Adenoma
-* Stage 1
-* Stage 2
-* Stage 3
-* Stage 4
-* Stage 3 Metastasis
-* Stage 4 Metastasis
 
 ## Analysis
 
