@@ -2,23 +2,27 @@
 no_probe <- read.csv("noprobe.csv", header = T)
 
 #calculate the mRNA per Area
-no_probe$mRNA <- no_probe$Counts / no_probe$Area
+no_probe$mRNA <- no_probe$Count / no_probe$Area
 
 #take the average of the regions for each spot of each patient and generate a
 #data frame that can be used for the rest of the analysis
 
 no_probe_average <<- data.frame() #output data frame
 
-for (i in unique(no_probe$Sample.ID)){
-  Sample.ID <<- i
-  for (j in unique(no_probe$Spot.ID)){
-    Spot.ID <<- j
-    calcdf <- subset(no_probe, no_probe$Sample.ID == i & no_probe$Spot.ID == j)
-    if (nrow(calcdf) > 1){ # removes the sample if there is less than 2 regions
-      Average <- mean(calcdf$mRNA)
-      Stage <- unique(calcdf$Stage)
-      new <- data.frame(Sample.ID, Stage, Spot.ID, Average)
-      no_probe_average <<- rbind(no_probe_average, new) #generating the new data frame
+for (k in unique(no_probe$TMA)){
+  TMA <<- k
+  for (i in unique(no_probe$Sample)){
+    Sample <<- i
+    for (j in unique(no_probe$Spot)){
+      Spot <<- j
+      calcdf <- subset(no_probe, no_probe$TMA == k & no_probe$Sample == i & no_probe$Spot == j)
+      if (nrow(calcdf) > 1){ # removes the sample if there is less than 2 regions
+        Average <- mean(calcdf$mRNA)
+        Stage <- unique(calcdf$Stage)
+        TMA <- unique(calcdf$TMA)
+        tmp <- data.frame(Sample, TMA, Stage, Spot, Average)
+        no_probe_average <<- rbind(no_probe_average, tmp) #generating the new data frame
+      }
     }
   }
 }
@@ -28,23 +32,27 @@ for (i in unique(no_probe$Sample.ID)){
 probe <- read.csv("pgc1beta.csv", header = T)
 
 #calculate the mRNA per Area
-probe$mRNA <- probe$Counts / probe$Area
+probe$mRNA <- probe$Count / probe$Area
 
 #take the average of the regions for each spot of each patient and generate a
 #data frame that can be used for the rest of the analysis
 
 probe_average <<- data.frame() #output data frame
 
-for (i in unique(probe$Sample.ID)){
-  Sample.ID <<- i
-  for (j in unique(probe$Spot.ID)){
-    Spot.ID <<- j
-    calcdf <- subset(probe, probe$Sample.ID == i & probe$Spot.ID == j)
-    if (nrow(calcdf) > 1){ # removes a sample if there is less than 2 regions
-      Average <- mean(calcdf$mRNA)
-      Stage <- unique(calcdf$Stage)
-      new <- data.frame(Sample.ID, Stage, Spot.ID, Average)
-      probe_average <<- rbind(probe_average, new) #generating the new data frame
+for (k in unique(probe$TMA)){
+  TMA <<- k
+  for (i in unique(probe$Sample)){
+    Sample <<- i
+    for (j in unique(probe$Spot)){
+      Spot <<- j
+      calcdf <- subset(probe, probe$TMA == k & probe$Sample == i & probe$Spot == j)
+      if (nrow(calcdf) > 1){ # removes a sample if there is less than 2 regions
+        Average <- mean(calcdf$mRNA)
+        Stage <- unique(calcdf$Stage)
+        TMA <- unique(calcdf$TMA)
+        tmp <- data.frame(Sample, TMA, Stage, Spot, Average)
+        probe_average <<- rbind(probe_average, tmp) #generating the new data frame
+      }
     }
   }
 }
@@ -54,17 +62,21 @@ for (i in unique(probe$Sample.ID)){
 
 probe_nobkgd <<- data.frame() #output data frame
 
-for (i in unique(probe_average$Sample.ID)){
-  Sample.ID <<- i
-  for (j in unique(probe_average$Spot.ID)){
-    Spot.ID <<- j
-    calcdfp <- subset(probe_average, probe_average$Sample.ID == i & probe_average$Spot.ID == j)
-    calcdfnp <- subset(no_probe_average, no_probe_average$Sample.ID == i & no_probe_average$Spot.ID == j)
-    if (nrow(calcdfnp) > 0 & nrow(calcdfp) > 0){ #checks to make sure there are values. if not, no match
+for (k in unique(probe_average$TMA)){
+  TMA <<- k
+  for (i in unique(probe_average$Sample)){
+    Sample <<- i
+    for (j in unique(probe_average$Spot)){
+      Spot <<- j
+      calcdfp <- subset(probe_average, probe_average$TMA == k & probe_average$Sample == i & probe_average$Spot == j)
+      calcdfnp <- subset(no_probe_average, no_probe_average$TMA == k & no_probe_average$Sample == i & no_probe_average$Spot == j)
+      if (nrow(calcdfnp) > 0 & nrow(calcdfp) > 0){ #checks to make sure there are values. if not, no match
         pmnp <- calcdfp$Average - calcdfnp$Average #probe minus no probe
         Stage <- unique(calcdfp$Stage)
-        new <- data.frame(Sample.ID, Stage, Spot.ID, pmnp)
-        probe_nobkgd <<- rbind(probe_nobkgd, new)
+        TMA <- unique(calcdfp$TMA)
+        tmp <- data.frame(Sample, TMA, Stage, Spot, pmnp)
+        probe_nobkgd <<- rbind(probe_nobkgd, tmp)
+      }
     }
   }
 }
@@ -72,14 +84,22 @@ for (i in unique(probe_average$Sample.ID)){
 ##Average each patient
 probe_PA <<- data.frame() #Patient Average
 
-for (i in unique(probe_nobkgd$Sample.ID)){
-  Sample.ID <<- i
-  calcdf <- subset(probe_nobkgd, probe_nobkgd$Sample.ID == i)
-  Average <- mean(calcdf$pmnp)
-  Stage <- unique(calcdf$Stage)
-  new <- data.frame(Sample.ID, Stage, Average)
-  probe_PA <<- rbind(probe_PA, new) #generating the new data frame
+for (k in unique(probe_nobkgd$TMA)){
+  TMA <<- k
+  for (i in unique(probe_nobkgd$Sample)){
+    Sample <<- i
+    calcdf <- subset(probe_nobkgd, probe_nobkgd$TMA == k & probe_nobkgd$Sample == i)
+    if (nrow(calcdf) > 0) {
+      Average <- mean(calcdf$pmnp)
+      Stage <- unique(calcdf$Stage)
+      tmp <- data.frame(TMA, Sample, Stage, Average)
+      probe_PA <<- rbind(probe_PA, tmp) #generating the new data frame
+    }
+  }
 }
+
+
+
 
 ##Compute Fold Change
 
@@ -101,8 +121,4 @@ shapiro.test(probe_fc$fc)
 probe_aov <- aov(fc~Stage, probe_fc)
 summary(probe_aov)
 TukeyHSD(probe_aov)
-
-##graph time
-
-plot(probe_fc$Stage, probe_fc$fc)
 
