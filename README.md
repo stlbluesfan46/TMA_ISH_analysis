@@ -10,8 +10,9 @@ Currently, the TMAs are set up with each patient having up to three replicate sp
 
 The data should be cleaned up in Excel and formatted into the following columns:
 
-Image | Probe | TMA | Stage | Sample | Spot | Region | Area | Count | Threshold
-imageName.tif | No Probe | TMA1 | Normal | NC1 | A | 1 | 58136 | 6 | 195
+| Image | Probe | TMA | Stage | Sample | Spot | Region | Area | Count | Threshold |
+| --- | --- | --- | --- | --- |--- | --- | --- | --- | --- |
+| imageName.tif | No Probe | TMA1 | Normal | NC1 | A | 1 | 58136 | 6 | 195 |
 
 
 Save the files in .csv format.
