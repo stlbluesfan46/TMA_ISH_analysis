@@ -70,3 +70,49 @@ ourDataNBG_ttest4 <- t.test(ourDataNBG_Normal$pmnp, ourDataNBG_Stage4$pmnp)
 ourDataNBG_ttest5 <- t.test(ourDataNBG_Normal$pmnp, ourDataNBG_Stage3Met$pmnp)
 ourDataNBG_ttest6 <- t.test(ourDataNBG_Normal$pmnp, ourDataNBG_Stage4Met$pmnp)
 ourDataNBG_ttest7 <- t.test(ourDataNBG_Normal$pmnp, ourDataNBG_TA$pmnp)
+
+
+library(ggplot2)
+
+ggplot(ourDataNBG, aes(x = ourDataNBG$Stage, y = ourDataNBG$pmnp)) +
+  geom_point(aes(color = factor(ourDataNBG$TMA))) + 
+  labs(title = "ERRalpha in Human Colon Cancer Samples", x = "", y = "mRNA / Area(pixels)", colour = "")
+
+ourDataNPM <- subset(ourDataNBG, ourDataNBG$Stage == "Normal" | ourDataNBG$Stage == "Stage 4" | ourDataNBG$Stage == "Stage 4 Met")
+
+ourDataNPM_stat <- ddply(ourDataNPM, .(Stage), summarise, mean = mean(pmnp), sd = sd(pmnp))
+
+ggplot(ourDataNPM, aes(x = Stage, y = pmnp)) +
+  geom_point(size = 3) + 
+  geom_point(data = ourDataNPM_stat, aes(x = Stage, y = mean), colour = 'red', size = 5) +
+  geom_errorbar(data = ourDataNPM_stat, aes(x = Stage, y = pmnp, ymin = mean - sd, ymax = mean + sd), width = 0.4) +
+  labs(title = "ERRalpha in Human Colon Cancer Samples", x = "", y = "mRNA / Area(pixels)", colour = "")
+
+ggsave(
+  "ERRalpha plot 2.png",
+  width = 5.0,
+  height = 5.0,
+  dpi = 500
+)
+
+probe_nobkgd_stat <- ddply(probe_nobkgd, .(Stage), summarise, mean = mean(pmnp), sd = sd(pmnp))
+
+ggplot(probe_nobkgd, aes(x = Stage, y = pmnp)) +
+  geom_point(aes(color = factor(TMA)), size = 5, position = "dodge") + 
+  geom_point(data = probe_nobkgd_stat, aes(x = Stage, y = mean), colour = 'black', size = 6) +
+  geom_errorbar(data = probe_nobkgd_stat, aes(x = Stage, y = pmnp, ymin = mean - sd, ymax = mean + sd), width = 0.4) +
+  labs(title = "ERRalpha in Human Colon Cancer Samples", x = "", y = "mRNA / Area(pixels)", colour = "")
+
+ggsave(
+  "ERRalpha plot 3.png",
+  dpi = 500
+)
+
+ggplot(no_probe, aes(x = TMA, y = mRNA)) +
+  geom_boxplot() + 
+  labs(title = "No Probe raw values by TMA")
+
+ggsave(
+  "No Probe Raw Values.png",
+  dpi = 500
+)

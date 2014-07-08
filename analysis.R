@@ -112,7 +112,7 @@ probe_fc$fc <- probe_PA$Average / stage_average["Normal"]
 stage_average_fc <- tapply(probe_fc$fc, list(probe_fc$Stage), mean, na.rm = T)
 
 ##output fold change data
-write.csv(probe_fc, file = "pgc1beta-fc.csv")
+#write.csv(probe_fc, file = "pgc1beta-fc.csv")
 
 ##stats - anova
 #test for normality
