@@ -1,8 +1,11 @@
 ##No probe first
 no_probe <- read.csv("noprobe.csv", header = T)
 
+#pixels to um - 32 px = 0.01mm  
+no_probe$AreaUM <- no_probe$Area / (32 * 32 / 10)
+
 #calculate the mRNA per Area
-no_probe$mRNA <- no_probe$Count / no_probe$Area
+no_probe$mRNA <- no_probe$Count / no_probe$AreaUM
 
 #take the average of the regions for each spot of each patient and generate a
 #data frame that can be used for the rest of the analysis
@@ -31,8 +34,11 @@ for (k in unique(no_probe$TMA)){
 
 probe <- read.csv("pgc1beta.csv", header = T)
 
+#pixels to um - 32 px = 0.01mm  
+probe$AreaUM <- probe$Area / (32 * 32 / 10)
+
 #calculate the mRNA per Area
-probe$mRNA <- probe$Count / probe$Area
+probe$mRNA <- probe$Count / probe$AreaUM
 
 #take the average of the regions for each spot of each patient and generate a
 #data frame that can be used for the rest of the analysis
